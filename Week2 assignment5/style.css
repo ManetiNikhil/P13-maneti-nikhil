@@ -1,0 +1,32 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+   
+}
+label{
+    display: inline-block;
+    width:120px;
+
+}
+.mul{
+    width:300px;
+    padding:10px;
+}
+
+.button{
+    width:auto;
+    border: 1px solid;
+    padding: 10px;
+}
+.required::after{
+    content: "*";
+    color: red;
+
+}
+p::before{
+    content: "*";
+    color: red;
+}
+ label + input{
+
+    background-color:  rgb(219, 241, 248);
+}

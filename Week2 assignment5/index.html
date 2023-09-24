@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <title>Form</title>
+    <h1>Rate a product</h1>
+    
+</head>
+<body>
+    <p>Indicates required field</p>
+    <form>
+        <label for="prod" class="required" >Product</label>
+        <input typ="text" id="prod"name="product" class="mul"><br><br>
+        <label for="purchase" class="required">Purchase Date</label>
+        <input typ="date"  id="purchase" name="purchase1" placeholder="mm/dd/yyyy" class="mul"><br><br>
+        <label for="rating" class="required">Date</label>
+        <input typ="Rate" id="rating" name="rating" maxlength="1" placeholder="4" class="mul"><br><br>
+        <label for="comment" >Comments</label>
+        <textarea id="comments" name="comments" rows="2" class="mul"></textarea><br><br>
+        <input type="button" value="Submit Rating" class="button">
+    </form>
+    
+</body>
+</html>

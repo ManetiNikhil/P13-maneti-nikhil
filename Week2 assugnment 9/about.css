@@ -1,0 +1,13 @@
+a{ 
+    padding-right: 10px;
+   }
+.col{ 
+    color: rgb(22, 72, 115);
+    text-decoration: underline;
+   }
+
+   footer{
+    position: fixed;
+    text-align: bottom;
+   }
+   

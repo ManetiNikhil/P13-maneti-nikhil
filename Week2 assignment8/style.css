@@ -1,0 +1,18 @@
+body{
+    margin-left: 10px;  
+    flex-direction: row;
+    
+}
+
+form{
+   width:500px; 
+   
+}
+.x{
+    margin-bottom: 10px;   
+}
+
+.b{
+    padding: 0 6px 0 6px;
+      
+}
