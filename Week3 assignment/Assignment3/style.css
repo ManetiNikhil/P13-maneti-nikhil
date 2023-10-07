@@ -1,0 +1,30 @@
+
+body{font-family: Verdana,
+        Geneva, Tahoma, sans-serif}
+h1{
+    text-align:center;
+  }
+  
+  #board {
+      display: grid; 
+      grid-template-columns: 100px 100px 100px; /* Three columns, each 100px wide */
+      grid-template-rows: 100px 100px 100px; /* Three rows, each 100px tall */
+      grid-gap: 10px; /* 10px gap between grid cells */
+      justify-content: center; /* Center the grid horizontally */
+  }
+  .cell{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    border:2px solid skyblue;
+    font-size: 70px;
+    color: red;
+  }
+  #cell2{
+    font-size: 110px;
+    color: blue;
+    padding-bottom: 20px;
+   
+  }
+  
+  
