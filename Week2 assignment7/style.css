@@ -1,0 +1,11 @@
+
+.label{
+    display: inline-flex;
+    width: 130px; 
+    margin-bottom: 10px;
+}
+.button{
+    padding: 6px;
+    border-style:groove;
+   
+}

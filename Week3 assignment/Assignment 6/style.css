@@ -1,0 +1,88 @@
+/* Add your styles here */
+body{
+   margin:0;
+ 
+}
+
+/* Set display to flex and justify-content to space-between for 'header' */
+header {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 2px solid #93B5C6;
+  background-color: #DDEDAA;
+  padding:12px;
+  font-size: 24px;
+  color: rgb(156, 20, 20);
+  border-width: 3px;
+}
+
+/* Set display to flex and flex-wrap to wrap for 'content' */
+.content {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+/* Set display to flex, flex-wrap to wrap, flex-grow to 1, and flex-basis to 70% for 'main-content' */
+.main-content {
+   display: flex;
+   flex-wrap: wrap;
+   flex-grow: 1;
+   flex-basis: 70%;
+}
+
+/* Set display to flex and align-items to baseline for 'title' */
+.title {
+   display: flex;
+   align-items: baseline;
+  border-bottom: 1px dashed #93B5C6;
+ 
+}
+.title h1 {
+color: #BD4F6C;
+}
+.title p {
+color: #93B5C6;
+margin-left: 30px;
+}
+
+
+/* Set display to flex, justify-content to space-evenly, flex-grow to 1, and flex-basis to 100% for 'summary' */
+.summary {
+   display: flex;
+   justify-content: space-evenly;
+   flex-grow: 1;
+   flex-basis: 100%;
+  margin-top: 30px;
+}
+
+/* Set display to flex and justify-content to space-between for 'tag' child of 'summary' */
+.summary .tag {
+   display: flex;
+   justify-content: space-between;
+}
+.summary > div {
+background-color: #DDEDAA;
+border: 2px solid #93B5C6;
+border-radius: 5px;
+color: #BD4F6C;
+padding: 5px;
+width: 210px;
+
+}
+
+.column div {
+  display: flex;
+  justify-content: space-between; 
+  /* Align items in columns with space between them */
+}
+/* Set flex-grow to 1 and flex-basis to 45% for 'ingredients' and 'directions' classes */
+.ingredients, .directions {
+   flex-grow: 1;
+   flex-basis: 45%;
+}
+
+/* Set flex-grow to 1 and flex-basis to 20% for 'related-content' class */
+.related-content {
+   flex-grow: 1;
+   flex-basis: 20%;
+}

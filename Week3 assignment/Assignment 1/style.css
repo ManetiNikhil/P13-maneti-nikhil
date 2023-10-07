@@ -1,0 +1,31 @@
+body {
+    font-family: Calibri, sans-serif;
+    font-size: 3em;
+ }
+
+ #answer {
+    color: black;
+    width: 100px;
+   animation-name:moveFraction;
+   animation-fill-mode:forwards;
+   animation-duration:2s;
+   position: relative;   
+ }
+
+ @keyframes  moveFraction{
+ 
+ 0%   {color:yellow; left:-150px; top:60px;}
+ 50%  { color:green;left:0px; top:60px;}
+ 100% {color:red ; left:0px; top:0px;}
+ 
+}
+
+ #question:hover {
+    transform: scale(0.9);
+     transition:0.6s;
+
+ }
+ 
+ span {
+    display: inline-block;         
+ }

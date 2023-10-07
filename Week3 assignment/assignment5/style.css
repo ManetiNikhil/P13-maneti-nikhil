@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(201, 201, 228);
+    font-family:Arial ;
+    width:400px;
+
+}
+h1{
+    
+   color:darkblue;
+    text-shadow:5px 5px 6px rgb(145, 155, 165);
+    
+    padding-left:8px;
+   
+}
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    color:white;
+    
+    
+}
+.box-style{
+    background:linear-gradient(to bottom right, darkblue, skyblue) ;
+    border:1px solid blue;
+    margin-bottom: 20px;
+    padding-left:10px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 6px grey;
+    font-size: 16px;
+   
+}
